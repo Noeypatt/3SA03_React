@@ -8,10 +8,17 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(0, 0, 0);
   height: 170px;
   padding: 20px;
-  color: rgba(255, 255, 255, 0.705);
+  color: rgb(255, 255, 255);
+}
+
+.header
+{
+  height: 50px;
+  position: absolute;
+  right: 0;
 }
 
 .App-title {
@@ -39,9 +46,15 @@
   text-align: left;
 }
 
+.Pic
+{
+  height: 390px;
+  position: absolute;
+  right: 0;
+}
+
 .Button
 {
-
   background-color: white; 
   border: 2px solid #008CBA;
   padding: 15px 40px;
@@ -52,7 +65,6 @@
   color: black;
   margin: 4px 2px;
   cursor: pointer;
-
 }
 
 .card {     

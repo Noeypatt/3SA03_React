@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
 import CharacterCard from './CharacterCard';
 import WordCard from './WordCard';
+
 const word = "Noey";
 class App extends Component {
   render() {
@@ -10,6 +10,7 @@ class App extends Component {
 
       <div className="App">
         <header className="App-header">
+          <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png" className="header" alt="head"/>
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
@@ -18,7 +19,8 @@ class App extends Component {
         <div className="AppHandler as Props">
           <WordCard value="Noey" />
           <button className="Button" title="Noey">Tip </button>
-
+          <image className="Pic" src="https://d2l3jyjp24noqc.cloudfront.net/uploads/image/img/505/Testing_Common_Redux_Patterns_in_React_Using_AVA.png" className="Pic" responsive />
+          
         </div>
       </div>
     );
