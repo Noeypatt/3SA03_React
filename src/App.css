@@ -3,15 +3,15 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  animation: App-logo-spin infinite 10s linear;
+  height: 100px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 170px;
   padding: 20px;
-  color: white;
+  color: rgba(255, 255, 255, 0.705);
 }
 
 .App-title {
@@ -19,7 +19,7 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: small;
 }
 
 @keyframes App-logo-spin {
@@ -27,17 +27,45 @@
   to { transform: rotate(360deg); }
 }
 
+.Content
+{
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.Hide
+{
+  font-size: 1.0em;
+  text-align: left;
+}
+
+.Button
+{
+
+  background-color: white; 
+  border: 2px solid #008CBA;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3em;
+  color: black;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
 .card {     
   display: inline-block;     
   text-align: center;     
   width: 3em;     
   font-size: 2em;     
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);     
+  box-shadow: 0 4px 8px 0 rgba(20, 8, 8, 0.2);     
   margin: 1em;      
   user-select: none; 
 }
 
 .activeCard {     
-  color: red; 
-  background: pink; 
+  color: #ffff00; 
+  background: #ffffcc; 
 } 
